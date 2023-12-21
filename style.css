@@ -1,0 +1,59 @@
+body {
+    background-color: #0F0F0F;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 40px 0px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchInput {
+    width: 50%;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button-wrapper {
+    margin: 10px 0px;
+}
+
+#searchButton {
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    padding: 5px;
+    background-color: #222222;
+    color: #fff;
+}
+
+#clearButton {
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    padding: 5px;
+    background-color: #FF0000;
+    color: #fff;
+}
+
+.imagelist-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagelist-wrapper>.card {
+    margin: 20px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    padding: 15px;
+    border-radius: 10px;
+}
